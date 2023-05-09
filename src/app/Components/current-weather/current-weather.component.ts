@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IcurrentWeather } from '../icurrent-weather';
+import { IcurrentWeather } from '../../icurrent-weather';
 
 @Component({
   selector: 'app-current-weather',
