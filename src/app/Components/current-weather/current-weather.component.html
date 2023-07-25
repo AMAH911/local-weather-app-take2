@@ -1,4 +1,9 @@
-<div>
+<div ngIF="!current">
+    No Data Big Bruder
+</div>
+
+
+<div *ngIf="current">
     <div>
         <span> {{current.city}}, {{current.country}}</span>
         <span> {{current.date | date:'fullDate'}}</span>
